@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\restapi\contacts-operations.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5398f70026456d9b70f53be51f27ec7c22c6b6a7</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure AD Graph API Operations on Contacts</source>
+          <target state="new">Azure AD Graph API Operations on Contacts</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Operations on contacts | Graph API reference</source>
+          <target state="new">Operations on contacts | Graph API reference</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Applies to:<ept id="p1">**</ept> Graph API | Azure Active Directory</source>
+          <target state="new"><bpt id="p1">**</bpt>Applies to:<ept id="p1">**</ept> Graph API | Azure Active Directory</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This topic discusses how to perform operations on organizational contacts using the Azure Active Directory (AD) Graph API.</source>
+          <target state="new">This topic discusses how to perform operations on organizational contacts using the Azure Active Directory (AD) Graph API.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Organizational contacts typically represent users who are external to your company or organization.</source>
+          <target state="new">Organizational contacts typically represent users who are external to your company or organization.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They are different from O365 Outlook personal contacts.</source>
+          <target state="new">They are different from O365 Outlook personal contacts.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With the Azure AD Graph API, you can read organizational contacts and their relationships to other directory objects, such as their manager, direct reports, and group memberships.</source>
+          <target state="new">With the Azure AD Graph API, you can read organizational contacts and their relationships to other directory objects, such as their manager, direct reports, and group memberships.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The ability to write organizational contacts is limited to those contacts that are not currently synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is  <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+          <target state="new">The ability to write organizational contacts is limited to those contacts that are not currently synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is  <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For such contacts, you can update or delete the contact itself or its manager property.</source>
+          <target state="new">For such contacts, you can update or delete the contact itself or its manager property.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You cannot create organizational contacts with the Graph API.</source>
+          <target state="new">You cannot create organizational contacts with the Graph API.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information about organizational contacts, including how they are created in your tenant, see <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept>.</source>
+          <target state="new">For more information about organizational contacts, including how they are created in your tenant, see <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept>.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Graph API is a REST-based API that provides programmatic access to directory objects in Azure Active Directory, such as users, groups, organizational contacts, and applications.</source>
+          <target state="new">The Graph API is a REST-based API that provides programmatic access to directory objects in Azure Active Directory, such as users, groups, organizational contacts, and applications.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!IMPORTANT]</ph> Azure AD Graph API functionality is also available through <bpt id="p1">[</bpt>Microsoft Graph<ept id="p1">](https://graph.microsoft.io/)</ept>, a unified API that also includes APIs from other Microsoft services like Outlook, OneDrive, OneNote, Planner, and Office Graph, all accessed through a single endpoint with a single access token.</source>
+          <target state="new"><ph id="ph1">[!IMPORTANT]</ph> Azure AD Graph API functionality is also available through <bpt id="p1">[</bpt>Microsoft Graph<ept id="p1">](https://graph.microsoft.io/)</ept>, a unified API that also includes APIs from other Microsoft services like Outlook, OneDrive, OneNote, Planner, and Office Graph, all accessed through a single endpoint with a single access token.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Performing REST operations on contacts</source>
+          <target state="new">Performing REST operations on contacts</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To perform operations on organizational contacts with the Graph API, you send HTTP requests with a supported method (GET, POST, PATCH, PUT, or DELETE) to an endpoint that targets the contacts resource collection, a specific contact, a navigation property of a contact, or a function or action that can be called on a contact.</source>
+          <target state="new">To perform operations on organizational contacts with the Graph API, you send HTTP requests with a supported method (GET, POST, PATCH, PUT, or DELETE) to an endpoint that targets the contacts resource collection, a specific contact, a navigation property of a contact, or a function or action that can be called on a contact.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Graph API requests use the following basic URL:</source>
+          <target state="new">Graph API requests use the following basic URL:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Requests sent to the Graph API must be well-formed, target a valid endpoint and version of the Graph API, and carry a valid access token obtained from Azure AD in their <ph id="ph1">`Authorization`</ph> header.</source>
+          <target state="new">Requests sent to the Graph API must be well-formed, target a valid endpoint and version of the Graph API, and carry a valid access token obtained from Azure AD in their <ph id="ph1">`Authorization`</ph> header.</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more detailed information about creating requests and receiving responses with the Graph API, see [Operations Overview].</source>
+          <target state="new">For more detailed information about creating requests and receiving responses with the Graph API, see [Operations Overview].</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You specify the <ph id="ph1">`{resource_path}`</ph> differently depending on whether you are targeting the collection of all contacts in your tenant, an individual contact, or a navigation property of a specific contact.</source>
+          <target state="new">You specify the <ph id="ph1">`{resource_path}`</ph> differently depending on whether you are targeting the collection of all contacts in your tenant, an individual contact, or a navigation property of a specific contact.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>targets the contact resource collection.</source>
+          <target state="new">targets the contact resource collection.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can use this resource path to read all contacts or a filtered list of contacts in your tenant.</source>
+          <target state="new">You can use this resource path to read all contacts or a filtered list of contacts in your tenant.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>targets an individual contact in your tenant.</source>
+          <target state="new">targets an individual contact in your tenant.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You specify the target contact with its object ID (GUID).</source>
+          <target state="new">You specify the target contact with its object ID (GUID).</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use this resource path to get the declared properties of a contact.</source>
+          <target state="new">You can use this resource path to get the declared properties of a contact.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For contacts that are not synced from an on-premises directory, you can use this resource path to modify the declared properties of a contact, or to delete a contact.</source>
+          <target state="new">For contacts that are not synced from an on-premises directory, you can use this resource path to modify the declared properties of a contact, or to delete a contact.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>targets the specified navigation property of a contact.</source>
+          <target state="new">targets the specified navigation property of a contact.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can use it to return the object or objects referenced by the target navigation property of the specified contact.</source>
+          <target state="new">You can use it to return the object or objects referenced by the target navigation property of the specified contact.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This form of addressing is only available for reads.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: This form of addressing is only available for reads.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>targets the specified navigation property of a contact.</source>
+          <target state="new">targets the specified navigation property of a contact.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can use this form of addressing to both read and modify a navigation property.</source>
+          <target state="new">You can use this form of addressing to both read and modify a navigation property.</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On reads, the objects referenced by the property are returned as one or more links in the response body.</source>
+          <target state="new">On reads, the objects referenced by the property are returned as one or more links in the response body.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Only the manager navigation property of contacts that are not synced from an on-premises directory can be modified.</source>
+          <target state="new">Only the manager navigation property of contacts that are not synced from an on-premises directory can be modified.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The manager is  specified as a link in the request body.</source>
+          <target state="new">The manager is  specified as a link in the request body.</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, the following request returns a link to the specified contact's manager:</source>
+          <target state="new">For example, the following request returns a link to the specified contact's manager:</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Basic operations on contacts</source>
+          <target state="new">Basic operations on contacts</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can perform read operations on contacts by targeting either the contact resource collection or a specific contact.</source>
+          <target state="new">You can perform read operations on contacts by targeting either the contact resource collection or a specific contact.</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can update and delete contacts that are not synced from an on-premises directory by targeting a specific contact.</source>
+          <target state="new">You can update and delete contacts that are not synced from an on-premises directory by targeting a specific contact.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The Graph API does not support creating contacts.</source>
+          <target state="new">The Graph API does not support creating contacts.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Nor does it support updating or deleting contacts that are synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>true<ept id="p2">**</ept>).</source>
+          <target state="new">Nor does it support updating or deleting contacts that are synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>true<ept id="p2">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The following topics show you how to perform basic operations on contacts.</source>
+          <target state="new">The following topics show you how to perform basic operations on contacts.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/get contacts codeGenerator: true</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/get contacts codeGenerator: true</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Get contacts</source>
+          <target state="new">Get contacts</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a collection of contacts.</source>
+          <target state="new">Gets a collection of contacts.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can add OData query parameters to the request to filter, sort, and page the response.</source>
+          <target state="new">You can add OData query parameters to the request to filter, sort, and page the response.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information, see [Supported Queries, Filters, and Paging Options].</source>
+          <target state="new">For more information, see [Supported Queries, Filters, and Paging Options].</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On success, returns a collection of <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept> objects; otherwise, the response body contains error details.</source>
+          <target state="new">On success, returns a collection of <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept> objects; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/get contact by id codeGenerator: true</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/get contact by id codeGenerator: true</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Get a contact</source>
+          <target state="new">Get a contact</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets a specified contact.</source>
+          <target state="new">Gets a specified contact.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You use the object ID (GUID) to identify the target contact.</source>
+          <target state="new">You use the object ID (GUID) to identify the target contact.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>On success, returns the <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept> object for the specified contact; otherwise, the response body contains error details.</source>
+          <target state="new">On success, returns the <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept> object for the specified contact; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/update contact</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/update contact</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Update a contact</source>
+          <target state="new">Update a contact</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Update a contact's properties.</source>
+          <target state="new">Update a contact's properties.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specify any writable <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept> property in the request body.</source>
+          <target state="new">Specify any writable <bpt id="p1">[</bpt>Contact<ept id="p1">]</ept> property in the request body.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Only the properties that you specify are changed.</source>
+          <target state="new">Only the properties that you specify are changed.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can  update only contacts that are not synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+          <target state="new">You can  update only contacts that are not synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>On success, no response body is returned; otherwise, the response body contains error details.</source>
+          <target state="new">On success, no response body is returned; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/delete contact</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/delete contact</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Delete a contact</source>
+          <target state="new">Delete a contact</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Deletes a contact.</source>
+          <target state="new">Deletes a contact.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can delete only contacts that are not synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or  <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+          <target state="new">You can delete only contacts that are not synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or  <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>On success, no response body is returned; otherwise, the response body contains error details.</source>
+          <target state="new">On success, no response body is returned; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Operations on contact navigation properties</source>
+          <target state="new">Operations on contact navigation properties</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Relationships between a contact and other objects in the directory such as the contact's manager, direct group memberships, and direct reports are exposed through navigation properties.</source>
+          <target state="new">Relationships between a contact and other objects in the directory such as the contact's manager, direct group memberships, and direct reports are exposed through navigation properties.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You can read and, in some cases, modify these relationships by targeting these navigation properties in your requests.</source>
+          <target state="new">You can read and, in some cases, modify these relationships by targeting these navigation properties in your requests.</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/get contact manager link codeGenerator: true</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/get contact manager link codeGenerator: true</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Get a contact's manager</source>
+          <target state="new">Get a contact's manager</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the contact's manager from the <bpt id="p1">**</bpt>manager<ept id="p1">**</ept> navigation property.</source>
+          <target state="new">Gets the contact's manager from the <bpt id="p1">**</bpt>manager<ept id="p1">**</ept> navigation property.</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>On success, returns a link to the <bpt id="p1">[</bpt>User<ept id="p1">]</ept> or <bpt id="p2">[</bpt>Contact<ept id="p2">]</ept> assigned as the contact's manager; otherwise, the response body contains error details.</source>
+          <target state="new">On success, returns a link to the <bpt id="p1">[</bpt>User<ept id="p1">]</ept> or <bpt id="p2">[</bpt>Contact<ept id="p2">]</ept> assigned as the contact's manager; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: You can remove the "$links" segment from the URL to return the <bpt id="p2">[</bpt>User<ept id="p2">]</ept> or <bpt id="p3">[</bpt>Contact<ept id="p3">]</ept> object instead of a link.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: You can remove the "$links" segment from the URL to return the <bpt id="p2">[</bpt>User<ept id="p2">]</ept> or <bpt id="p3">[</bpt>Contact<ept id="p3">]</ept> object instead of a link.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/update contact manager</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/update contact manager</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Assign a contact's manager</source>
+          <target state="new">Assign a contact's manager</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Assigns a contact's manager through the <bpt id="p1">**</bpt>manager<ept id="p1">**</ept> property.</source>
+          <target state="new">Assigns a contact's manager through the <bpt id="p1">**</bpt>manager<ept id="p1">**</ept> property.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Either a user or a contact may be assigned.</source>
+          <target state="new">Either a user or a contact may be assigned.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The request body contains a link to the <bpt id="p1">[</bpt>User<ept id="p1">]</ept> or <bpt id="p2">[</bpt>Contact<ept id="p2">]</ept> to assign.</source>
+          <target state="new">The request body contains a link to the <bpt id="p1">[</bpt>User<ept id="p1">]</ept> or <bpt id="p2">[</bpt>Contact<ept id="p2">]</ept> to assign.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can update the manager only for contacts that are not synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+          <target state="new">You can update the manager only for contacts that are not synced from an on-premises directory (the <bpt id="p1">**</bpt>dirSyncEnabled<ept id="p1">**</ept> property is <bpt id="p2">**</bpt>null<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>On success, no response body is returned; otherwise, the response body contains error details.</source>
+          <target state="new">On success, no response body is returned; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/get contact direct reports links codeGenerator: true</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/get contact direct reports links codeGenerator: true</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Get a contact's direct reports</source>
+          <target state="new">Get a contact's direct reports</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the contact's direct reports from the <bpt id="p1">**</bpt>directReports<ept id="p1">**</ept> navigation property.</source>
+          <target state="new">Gets the contact's direct reports from the <bpt id="p1">**</bpt>directReports<ept id="p1">**</ept> navigation property.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>On success, returns a collection of links to the <bpt id="p1">[</bpt>User<ept id="p1">]</ept>'s and <bpt id="p2">[</bpt>Contact<ept id="p2">]</ept>'s for whom this contact is assigned as manager; otherwise, the response body contains error details.</source>
+          <target state="new">On success, returns a collection of links to the <bpt id="p1">[</bpt>User<ept id="p1">]</ept>'s and <bpt id="p2">[</bpt>Contact<ept id="p2">]</ept>'s for whom this contact is assigned as manager; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: You can remove the "$links" segment from the URL to return  <bpt id="p2">[</bpt>DirectoryObject<ept id="p2">]</ept>s for the users and contacts instead of links.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: You can remove the "$links" segment from the URL to return  <bpt id="p2">[</bpt>DirectoryObject<ept id="p2">]</ept>s for the users and contacts instead of links.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>uid: graph.windows.net/myorganization/Contacts/1.6/get contact memberOf links codeGenerator: true</source>
+          <target state="new">uid: graph.windows.net/myorganization/Contacts/1.6/get contact memberOf links codeGenerator: true</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Get a contact's group memberships</source>
+          <target state="new">Get a contact's group memberships</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets the contact's group  memberships from the <bpt id="p1">**</bpt>memberOf<ept id="p1">**</ept> navigation property.</source>
+          <target state="new">Gets the contact's group  memberships from the <bpt id="p1">**</bpt>memberOf<ept id="p1">**</ept> navigation property.</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This property returns only groups that the contact is a direct member of.</source>
+          <target state="new">This property returns only groups that the contact is a direct member of.</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To get all of the groups that the contact has direct or transitive membership in, call the [getMemberGroups] function.</source>
+          <target state="new">To get all of the groups that the contact has direct or transitive membership in, call the [getMemberGroups] function.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>On success, returns a collection of links to the <bpt id="p1">[</bpt>Group<ept id="p1">]</ept>s that this contact is a member of; otherwise, the response body contains error details.</source>
+          <target state="new">On success, returns a collection of links to the <bpt id="p1">[</bpt>Group<ept id="p1">]</ept>s that this contact is a member of; otherwise, the response body contains error details.</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For more information about errors, see [Error Codes and Error Handling].</source>
+          <target state="new">For more information about errors, see [Error Codes and Error Handling].</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: You can remove the "$links" segment from the URL to return the <bpt id="p2">[</bpt>DirectoryObject<ept id="p2">]</ept>s for the groups instead of links.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: You can remove the "$links" segment from the URL to return the <bpt id="p2">[</bpt>DirectoryObject<ept id="p2">]</ept>s for the groups instead of links.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Functions and actions on contacts</source>
+          <target state="new">Functions and actions on contacts</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can call any of the following functions on a contact.</source>
+          <target state="new">You can call any of the following functions on a contact.</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Check membership in a specific group (transitive)</source>
+          <target state="new">Check membership in a specific group (transitive)</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>You can call the [isMemberOf] function to check for membership in a specific group.</source>
+          <target state="new">You can call the [isMemberOf] function to check for membership in a specific group.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The check is transitive.</source>
+          <target state="new">The check is transitive.</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Check membership in a list of groups (transitive)</source>
+          <target state="new">Check membership in a list of groups (transitive)</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can call the [checkMemberGroups] function to check for membership in a list of groups.</source>
+          <target state="new">You can call the [checkMemberGroups] function to check for membership in a list of groups.</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The check is transitive.</source>
+          <target state="new">The check is transitive.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Get all group memberships (transitive)</source>
+          <target state="new">Get all group memberships (transitive)</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You can call the [getMemberGroups] function to return all the groups that the contact is a member of.</source>
+          <target state="new">You can call the [getMemberGroups] function to return all the groups that the contact is a member of.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The check is transitive, unlike reading the <bpt id="p1">[</bpt>memberOf<ept id="p1">](#GetContactsMemberships)</ept> navigation property, which returns only the groups that the contact is a direct member of.</source>
+          <target state="new">The check is transitive, unlike reading the <bpt id="p1">[</bpt>memberOf<ept id="p1">](#GetContactsMemberships)</ept> navigation property, which returns only the groups that the contact is a direct member of.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Additional Resources</source>
+          <target state="new">Additional Resources</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Learn more about Graph API supported features, capabilities, and preview features in [Graph API concepts]</source>
+          <target state="new">Learn more about Graph API supported features, capabilities, and preview features in [Graph API concepts]</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Application</source>
+          <target state="new">Application</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>AppRoleAssignment</source>
+          <target state="new">AppRoleAssignment</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target state="new">Contact</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Contract</source>
+          <target state="new">Contract</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Device</source>
+          <target state="new">Device</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>DirectoryLinkChange</source>
+          <target state="new">DirectoryLinkChange</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>DirectoryObject</source>
+          <target state="new">DirectoryObject</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>DirectoryRole</source>
+          <target state="new">DirectoryRole</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>DirectoryRoleTemplate</source>
+          <target state="new">DirectoryRoleTemplate</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Domain (preview)</source>
+          <target state="new">Domain (preview)</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>DomainDnsRecord</source>
+          <target state="new">DomainDnsRecord</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>DomainDnsCnameRecord</source>
+          <target state="new">DomainDnsCnameRecord</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>DomainDnsMxRecord</source>
+          <target state="new">DomainDnsMxRecord</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>DomainDnsSrvRecord</source>
+          <target state="new">DomainDnsSrvRecord</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>DomainDnsTxtRecord</source>
+          <target state="new">DomainDnsTxtRecord</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>DomainDnsUnavailableRecord</source>
+          <target state="new">DomainDnsUnavailableRecord</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>ExtensionProperty</source>
+          <target state="new">ExtensionProperty</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Group</source>
+          <target state="new">Group</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>OAuth2PermissionGrant</source>
+          <target state="new">OAuth2PermissionGrant</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>ServicePrincipal</source>
+          <target state="new">ServicePrincipal</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>SubscribedSku</source>
+          <target state="new">SubscribedSku</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>TenantDetail</source>
+          <target state="new">TenantDetail</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="new">User</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>AlternativeSecurityId</source>
+          <target state="new">AlternativeSecurityId</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>AppRole</source>
+          <target state="new">AppRole</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>AssignedLicense</source>
+          <target state="new">AssignedLicense</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>AssignedPlan</source>
+          <target state="new">AssignedPlan</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>KeyCredential</source>
+          <target state="new">KeyCredential</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>LicenseUnitsDetail</source>
+          <target state="new">LicenseUnitsDetail</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>OAuth2Permission</source>
+          <target state="new">OAuth2Permission</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>PasswordCredential</source>
+          <target state="new">PasswordCredential</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>PasswordProfile</source>
+          <target state="new">PasswordProfile</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>ProvisionedPlan</source>
+          <target state="new">ProvisionedPlan</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>ProvisioningError</source>
+          <target state="new">ProvisioningError</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>RequiredResourceAccess</source>
+          <target state="new">RequiredResourceAccess</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>ResourceAccess</source>
+          <target state="new">ResourceAccess</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>ServicePlanInfo</source>
+          <target state="new">ServicePlanInfo</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>ServicePrincipalAuthenticationPolicy</source>
+          <target state="new">ServicePrincipalAuthenticationPolicy</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>VerifiedDomain</source>
+          <target state="new">VerifiedDomain</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Graph API QuickStart on Azure on Azure.com</source>
+          <target state="new">Graph API QuickStart on Azure on Azure.com</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

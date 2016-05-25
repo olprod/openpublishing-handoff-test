@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\conceptual\small.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e7fffb2ce1a7a2840d88d84054d08e191a21926</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>na</source>
+          <target state="new">na</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ATA Deployment Guide</source>
+          <target state="new">ATA Deployment Guide</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To deploy ATA, follow these steps:</source>
+          <target state="new">To deploy ATA, follow these steps:</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Prepare your network and servers according to the guidelines in <bpt id="p1">[</bpt>ATA Prerequisites<ept id="p1">](./small.md)</ept>.</source>
+          <target state="new">Prepare your network and servers according to the guidelines in <bpt id="p1">[</bpt>ATA Prerequisites<ept id="p1">](./small.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Perform pre-installation steps: <bpt id="p1">[</bpt>Install ATA<ept id="p1">](./large.md)</ept></source>
+          <target state="new">Perform pre-installation steps: <bpt id="p1">[</bpt>Install ATA<ept id="p1">](./large.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Configure Port Mirroring</source>
+          <target state="new">Configure Port Mirroring</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Validate Port Mirroring</source>
+          <target state="new">Validate Port Mirroring</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Optional: <bpt id="p1">[</bpt>Configure Event Collection<ept id="p1">](./small.md)</ept></source>
+          <target state="new">Optional: <bpt id="p1">[</bpt>Configure Event Collection<ept id="p1">](./small.md)</ept></target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Install ATA</source>
+          <target state="new">Install ATA</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

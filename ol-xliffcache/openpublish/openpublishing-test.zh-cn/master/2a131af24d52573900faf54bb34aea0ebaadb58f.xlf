@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\abtesting\control-panel.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a131af24d52573900faf54bb34aea0ebaadb58f</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A/B Testing Control Panel</source>
+          <target state="new">A/B Testing Control Panel</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>(function(){ var doc = document; var head = doc.getElementsByTagName('HEAD')[0]; var status = {complete: 0}; var script = doc.createElement('SCRIPT'); script.type = 'text/javascript'; script.src = '/_chrome/lib/Tartarus.js'; script.onload = function() { script.onload = script.onreadystatechange = null; Tartarus.load( '/_chrome/lib/Prelude.js', '/_chrome/lib/Intermezzo.js', '/_chrome/lib/URI.js', function() { Intermezzo.RemoveNode(script); if (window.top === window) { window.location.href = URI.NormalizeURI('/_chrome/experiment.htm', URI.GetCurrentURI()) + '#' + URI.GetCurrentURI(); } } ); }; script.onreadystatechange = function(){ if(status.hasOwnProperty(script.readyState)) { script.onload(); } else if(script.readyState === 'loading') { status['loaded'] = 0; } }; head.appendChild(script); })();</source>
+          <target state="new">(function(){ var doc = document; var head = doc.getElementsByTagName('HEAD')[0]; var status = {complete: 0}; var script = doc.createElement('SCRIPT'); script.type = 'text/javascript'; script.src = '/_chrome/lib/Tartarus.js'; script.onload = function() { script.onload = script.onreadystatechange = null; Tartarus.load( '/_chrome/lib/Prelude.js', '/_chrome/lib/Intermezzo.js', '/_chrome/lib/URI.js', function() { Intermezzo.RemoveNode(script); if (window.top === window) { window.location.href = URI.NormalizeURI('/_chrome/experiment.htm', URI.GetCurrentURI()) + '#' + URI.GetCurrentURI(); } } ); }; script.onreadystatechange = function(){ if(status.hasOwnProperty(script.readyState)) { script.onload(); } else if(script.readyState === 'loading') { status['loaded'] = 0; } }; head.appendChild(script); })();</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You will see the A/B Testing Control Panel on the left side, this is expected, please have a try.</source>
+          <target state="new">You will see the A/B Testing Control Panel on the left side, this is expected, please have a try.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

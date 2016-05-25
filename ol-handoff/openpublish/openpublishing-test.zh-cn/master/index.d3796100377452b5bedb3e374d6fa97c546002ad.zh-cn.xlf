@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\redirectUrl\index.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df5c21d1b72e838c1ed9ab90b99fe6e517f7ce57</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>redirectUrl test - index</source>
+          <target state="new">redirectUrl test - index</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This folder is used for absolute &amp; relative redirect_url test.</source>
+          <target state="new">This folder is used for absolute &amp; relative redirect_url test.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>AbsoluteUrl - absolute test.</source>
+          <target state="new">AbsoluteUrl - absolute test.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>EmptyRelativeUrl - relative format but with empty value.</source>
+          <target state="new">EmptyRelativeUrl - relative format but with empty value.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>InvalidRelativeUrl - relative format but with invalid vlue.</source>
+          <target state="new">InvalidRelativeUrl - relative format but with invalid vlue.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>RelativeUrl - relative format with path : RelativePage.</source>
+          <target state="new">RelativeUrl - relative format with path : RelativePage.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
