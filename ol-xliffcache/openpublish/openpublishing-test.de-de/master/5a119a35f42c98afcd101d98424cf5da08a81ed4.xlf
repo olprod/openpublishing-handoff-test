@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\conceptual\large.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a119a35f42c98afcd101d98424cf5da08a81ed4</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>na</source>
+          <target state="new">na</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Install ATA</source>
+          <target state="new">Install ATA</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The following are the steps required to get ATA deployed, configured, and running.</source>
+          <target state="new">The following are the steps required to get ATA deployed, configured, and running.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To configure ATA, follow these steps:</source>
+          <target state="new">To configure ATA, follow these steps:</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Preinstallation steps</source>
+          <target state="new">Preinstallation steps</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Step 1.</source>
+          <target state="new">Step 1.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Download and Install the ATA Center</source>
+          <target state="new">Download and Install the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Step 3.</source>
+          <target state="new">Step 3.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configure ATA Gateway Domain Connectivity Settings</source>
+          <target state="new">Configure ATA Gateway Domain Connectivity Settings</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Step 4.</source>
+          <target state="new">Step 4.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Download the ATA Gateway Setup Package</source>
+          <target state="new">Download the ATA Gateway Setup Package</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Step 5.</source>
+          <target state="new">Step 5.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>ATA Gateway installation</source>
+          <target state="new">ATA Gateway installation</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Step 6.</source>
+          <target state="new">Step 6.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Configure the ATA Gateway settings</source>
+          <target state="new">Configure the ATA Gateway settings</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Step 7.</source>
+          <target state="new">Step 7.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Configure VPN Subnets and Honeytoken user</source>
+          <target state="new">Configure VPN Subnets and Honeytoken user</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Pre-installation steps</source>
+          <target state="new">Pre-installation steps</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you installed the ATA public preview version, see <bpt id="p1">[</bpt>ATA Release Notes<ept id="p1">](./small.md)</ept> for help uninstalling the ATA Preview version.</source>
+          <target state="new">If you installed the ATA public preview version, see <bpt id="p1">[</bpt>ATA Release Notes<ept id="p1">](./small.md)</ept> for help uninstalling the ATA Preview version.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Install KB2934520 on the ATA Center server and on the ATA Gateway servers before beginning installation, otherwise the ATA installation will install this update and will require a restart in the middle of the ATA installation.</source>
+          <target state="new">Install KB2934520 on the ATA Center server and on the ATA Gateway servers before beginning installation, otherwise the ATA installation will install this update and will require a restart in the middle of the ATA installation.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Step 1.</source>
+          <target state="new">Step 1.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Download and Install the ATA Center</source>
+          <target state="new">Download and Install the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>After you have verified that the server meets the requirements, you can proceed with the installation of the ATA Center.</source>
+          <target state="new">After you have verified that the server meets the requirements, you can proceed with the installation of the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Perform the following steps on the ATA Center server.</source>
+          <target state="new">Perform the following steps on the ATA Center server.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Download ATA from the <bpt id="p1">[</bpt>TechNet Evaluation Center<ept id="p1">](http://www.microsoft.com/en-us/evalcenter/)</ept>.</source>
+          <target state="new">Download ATA from the <bpt id="p1">[</bpt>TechNet Evaluation Center<ept id="p1">](http://www.microsoft.com/en-us/evalcenter/)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Log in with a user who is a member of the local administrators group.</source>
+          <target state="new">Log in with a user who is a member of the local administrators group.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>From an elevated command prompt, run Microsoft ATA Center Setup.EXE and follow the setup wizard.</source>
+          <target state="new">From an elevated command prompt, run Microsoft ATA Center Setup.EXE and follow the setup wizard.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Read the End User License Agreement and if you accept the terms, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+          <target state="new">Read the End User License Agreement and if you accept the terms, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Center Configuration<ept id="p1">**</ept> page, enter the following information based on your environment:</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Center Configuration<ept id="p1">**</ept> page, enter the following information based on your environment:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Field</source>
+          <target state="new">Field</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target state="new">Comments</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Installation Path</source>
+          <target state="new">Installation Path</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is the location where the ATA Center will be installed.</source>
+          <target state="new">This is the location where the ATA Center will be installed.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>By default this is  %programfiles%\Microsoft Advanced Threat Analytics\Center</source>
+          <target state="new">By default this is  %programfiles%\Microsoft Advanced Threat Analytics\Center</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Leave the default value</source>
+          <target state="new">Leave the default value</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Database Data Path</source>
+          <target state="new">Database Data Path</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is the location where the MongoDB database files will be located.</source>
+          <target state="new">This is the location where the MongoDB database files will be located.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>By default this is %programfiles%\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\data</source>
+          <target state="new">By default this is %programfiles%\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\data</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Change the location to a place where you have room to grow based on your sizing.</source>
+          <target state="new">Change the location to a place where you have room to grow based on your sizing.</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Note:</source>
+          <target state="new">Note:</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In production environments you should use a drive that has enough space based on capacity planning.</source>
+          <target state="new">In production environments you should use a drive that has enough space based on capacity planning.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For large deployments the database should be on a separate physical disk.</source>
+          <target state="new">For large deployments the database should be on a separate physical disk.</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>ATA Capacity Planning<ept id="p1">](./small.md)</ept> for sizing information.</source>
+          <target state="new">See <bpt id="p1">[</bpt>ATA Capacity Planning<ept id="p1">](./small.md)</ept> for sizing information.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Database Journal Path</source>
+          <target state="new">Database Journal Path</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is the location where the database journal files will be located.</source>
+          <target state="new">This is the location where the database journal files will be located.</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>By default this is %programfiles%\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\data\journal</source>
+          <target state="new">By default this is %programfiles%\Microsoft Advanced Threat Analytics\Center\MongoDB\bin\data\journal</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For large deployments, the Database Journal should be on a separate physical disk from the database and the system drive.</source>
+          <target state="new">For large deployments, the Database Journal should be on a separate physical disk from the database and the system drive.</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Change the location to a place where you have room for your Database Journal.</source>
+          <target state="new">Change the location to a place where you have room for your Database Journal.</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>ATA Center Service IP address: Port</source>
+          <target state="new">ATA Center Service IP address: Port</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This is the IP address that the ATA Center service will listen on for communication from the ATA Gateways.</source>
+          <target state="new">This is the IP address that the ATA Center service will listen on for communication from the ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Default port:<ept id="p1">**</ept> 443</source>
+          <target state="new"><bpt id="p1">**</bpt>Default port:<ept id="p1">**</ept> 443</target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Click the down arrow to select the IP address to be used by the ATA Center service.</source>
+          <target state="new">Click the down arrow to select the IP address to be used by the ATA Center service.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The IP address and port of the ATA Center service cannot be the same as the IP address and port of the ATA Console.</source>
+          <target state="new">The IP address and port of the ATA Center service cannot be the same as the IP address and port of the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Make sure to change the port of the ATA Console.</source>
+          <target state="new">Make sure to change the port of the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>ATA Center Service SSL Certificate</source>
+          <target state="new">ATA Center Service SSL Certificate</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This is the certificate that will be used by the ATA Center service.</source>
+          <target state="new">This is the certificate that will be used by the ATA Center service.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click the key icon to select a certificate installed or check self-signed certificate when deploying in a lab environment.</source>
+          <target state="new">Click the key icon to select a certificate installed or check self-signed certificate when deploying in a lab environment.</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>ATA Console IP address</source>
+          <target state="new">ATA Console IP address</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This is the IP address that will be used by IIS for the ATA Console.</source>
+          <target state="new">This is the IP address that will be used by IIS for the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Click the down arrow to select the IP address used by the ATA Console.</source>
+          <target state="new">Click the down arrow to select the IP address used by the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Make a note of this IP address to make it easier to access the ATA Console from the ATA Gateway.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Make a note of this IP address to make it easier to access the ATA Console from the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>ATA Console SSL certificate</source>
+          <target state="new">ATA Console SSL certificate</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This is the certificate to be used by IIS.</source>
+          <target state="new">This is the certificate to be used by IIS.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Click the key icon to select a certificate installed or check self-signed certificate when deploying in a lab environment.</source>
+          <target state="new">Click the key icon to select a certificate installed or check self-signed certificate when deploying in a lab environment.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept> to install ATA and its components and create the connection between the ATA Center and the ATA Console.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Install<ept id="p1">**</ept> to install ATA and its components and create the connection between the ATA Center and the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When the installation completes, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept>  to connect to the ATA Console.</source>
+          <target state="new">When the installation completes, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept>  to connect to the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The following components are installed and configured during the installation of ATA Center:</source>
+          <target state="new">The following components are installed and configured during the installation of ATA Center:</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Internet Information Services (IIS)</source>
+          <target state="new">Internet Information Services (IIS)</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>MongoDB</source>
+          <target state="new">MongoDB</target>
+        </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>ATA Center service and ATA Console IIS site</source>
+          <target state="new">ATA Center service and ATA Console IIS site</target>
+        </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Custom Performance Monitor data collection set</source>
+          <target state="new">Custom Performance Monitor data collection set</target>
+        </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Self-signed certificates (if selected during the installation)</source>
+          <target state="new">Self-signed certificates (if selected during the installation)</target>
+        </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>To help in troubleshooting and product enhancement, it is recommended that you install MongoVue and any other MongoDB add-in, or any other third-party tool of your choice.</source>
+          <target state="new">To help in troubleshooting and product enhancement, it is recommended that you install MongoVue and any other MongoDB add-in, or any other third-party tool of your choice.</target>
+        </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>MongoVue requires .Net Framework 3.5 to be installed.</source>
+          <target state="new">MongoVue requires .Net Framework 3.5 to be installed.</target>
+        </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Validate installation</source>
+          <target state="new">Validate installation</target>
+        </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Check to see that the Microsoft Advanced Threat Analytics Center service is running.</source>
+          <target state="new">Check to see that the Microsoft Advanced Threat Analytics Center service is running.</target>
+        </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>On the desktop click the Microsoft Advanced Threat Analytics shortcut to connect to the ATA Console.</source>
+          <target state="new">On the desktop click the Microsoft Advanced Threat Analytics shortcut to connect to the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Log in with the same user credentials that you used to install the ATA Center.</source>
+          <target state="new">Log in with the same user credentials that you used to install the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The first time you log into the ATA Console you will be brought automatically to the <bpt id="p1">**</bpt>Domain connectivity settings<ept id="p1">**</ept> page to continue the configuration and the deployment of the ATA Gateways.</source>
+          <target state="new">The first time you log into the ATA Console you will be brought automatically to the <bpt id="p1">**</bpt>Domain connectivity settings<ept id="p1">**</ept> page to continue the configuration and the deployment of the ATA Gateways.</target>
+        </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Review the error file in the <bpt id="p1">**</bpt>Microsoft.Tri.Center-Errors.log<ept id="p1">**</ept> file which can be found in the following default location: %programfiles%\Microsoft Advanced Threat Analytics\Center\Logs.</source>
+          <target state="new">Review the error file in the <bpt id="p1">**</bpt>Microsoft.Tri.Center-Errors.log<ept id="p1">**</ept> file which can be found in the following default location: %programfiles%\Microsoft Advanced Threat Analytics\Center\Logs.</target>
+        </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Step 2.</source>
+          <target state="new">Step 2.</target>
+        </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Configure ATA Gateway domain connectivity settings</source>
+          <target state="new">Configure ATA Gateway domain connectivity settings</target>
+        </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The settings in the domain connectivity settings section apply to all ATA Gateways managed by the ATA Center.</source>
+          <target state="new">The settings in the domain connectivity settings section apply to all ATA Gateways managed by the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To configure the Domain connectivity settings perform the following on the ATA Center server.</source>
+          <target state="new">To configure the Domain connectivity settings perform the following on the ATA Center server.</target>
+        </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Open the ATA Console and log in.</source>
+          <target state="new">Open the ATA Console and log in.</target>
+        </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For instructions see <bpt id="p1">[</bpt>Working with the ATA Console<ept id="p1">](./small.md)</ept>.</source>
+          <target state="new">For instructions see <bpt id="p1">[</bpt>Working with the ATA Console<ept id="p1">](./small.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The first time you log into the ATA Console after the ATA Center has been installed, you will automatically be taken to the ATA Gateways configuration page.</source>
+          <target state="new">The first time you log into the ATA Console after the ATA Center has been installed, you will automatically be taken to the ATA Gateways configuration page.</target>
+        </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If you need to modify any of the settings afterwards, click the Settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</source>
+          <target state="new">If you need to modify any of the settings afterwards, click the Settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Gateways<ept id="p1">**</ept> page, click on <bpt id="p2">**</bpt>Domain connectivity settings<ept id="p2">**</ept>, enter the following information and click <bpt id="p3">**</bpt>Save<ept id="p3">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Gateways<ept id="p1">**</ept> page, click on <bpt id="p2">**</bpt>Domain connectivity settings<ept id="p2">**</ept>, enter the following information and click <bpt id="p3">**</bpt>Save<ept id="p3">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Field</source>
+          <target state="new">Field</target>
+        </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target state="new">Comments</target>
+        </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Username<ept id="p1">**</ept> (required)</source>
+          <target state="new"><bpt id="p1">**</bpt>Username<ept id="p1">**</ept> (required)</target>
+        </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Enter the read-only user name, for example: <bpt id="p1">**</bpt>user1<ept id="p1">**</ept>.</source>
+          <target state="new">Enter the read-only user name, for example: <bpt id="p1">**</bpt>user1<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Password<ept id="p1">**</ept> (required)</source>
+          <target state="new"><bpt id="p1">**</bpt>Password<ept id="p1">**</ept> (required)</target>
+        </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Enter the password for the read-only user, for example: <bpt id="p1">**</bpt>Pencil1<ept id="p1">**</ept>.</source>
+          <target state="new">Enter the password for the read-only user, for example: <bpt id="p1">**</bpt>Pencil1<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Make sure this password is correct.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> Make sure this password is correct.</target>
+        </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If you save the wrong password, the ATA Service will stop running on the ATA Gateway servers.</source>
+          <target state="new">If you save the wrong password, the ATA Service will stop running on the ATA Gateway servers.</target>
+        </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Domain<ept id="p1">**</ept> (required)</source>
+          <target state="new"><bpt id="p1">**</bpt>Domain<ept id="p1">**</ept> (required)</target>
+        </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Enter the domain for the read-only user, for example, <bpt id="p1">**</bpt>contoso.com<ept id="p1">**</ept>.</source>
+          <target state="new">Enter the domain for the read-only user, for example, <bpt id="p1">**</bpt>contoso.com<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> It is important that you enter the complete FQDN of the domain where the user is located.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> It is important that you enter the complete FQDN of the domain where the user is located.</target>
+        </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, if the user’s account is in domain corp.contoso.com, you need to enter <ph id="ph1">`corp.contoso.com`</ph> not contoso.com</source>
+          <target state="new">For example, if the user’s account is in domain corp.contoso.com, you need to enter <ph id="ph1">`corp.contoso.com`</ph> not contoso.com</target>
+        </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Step 3.</source>
+          <target state="new">Step 3.</target>
+        </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Download the ATA Gateway setup package</source>
+          <target state="new">Download the ATA Gateway setup package</target>
+        </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>After configuring the domain connectivity settings you can download the ATA Gateway setup package.</source>
+          <target state="new">After configuring the domain connectivity settings you can download the ATA Gateway setup package.</target>
+        </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To download the ATA Gateway package:</source>
+          <target state="new">To download the ATA Gateway package:</target>
+        </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>On the ATA Gateway machine, open a browser and enter the IP address you configured in the ATA Center for the ATA Console.</source>
+          <target state="new">On the ATA Gateway machine, open a browser and enter the IP address you configured in the ATA Center for the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>When the ATA Console opens, click on the settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</source>
+          <target state="new">When the ATA Console opens, click on the settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>ATA Gateways<ept id="p1">**</ept> tab, click <bpt id="p2">**</bpt>Download ATA Gateway Setup<ept id="p2">**</ept>.</source>
+          <target state="new">In the <bpt id="p1">**</bpt>ATA Gateways<ept id="p1">**</ept> tab, click <bpt id="p2">**</bpt>Download ATA Gateway Setup<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Save the package locally.</source>
+          <target state="new">Save the package locally.</target>
+        </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The zip file includes the following:</source>
+          <target state="new">The zip file includes the following:</target>
+        </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>ATA Gateway installer</source>
+          <target state="new">ATA Gateway installer</target>
+        </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Configuration setting file with the required information to connect to the ATA Center</source>
+          <target state="new">Configuration setting file with the required information to connect to the ATA Center</target>
+        </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Step 4.</source>
+          <target state="new">Step 4.</target>
+        </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Install the ATA Gateway</source>
+          <target state="new">Install the ATA Gateway</target>
+        </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Before installing the ATA Gateway, validate that port mirroring is properly configured and that the ATA Gateway can see traffic to and from the domain controllers.</source>
+          <target state="new">Before installing the ATA Gateway, validate that port mirroring is properly configured and that the ATA Gateway can see traffic to and from the domain controllers.</target>
+        </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Validate Port Mirroring<ept id="p1">](./small.md)</ept> for more information.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Validate Port Mirroring<ept id="p1">](./small.md)</ept> for more information.</target>
+        </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Make sure that <bpt id="p1">[</bpt>KB2919355<ept id="p1">](http://support.microsoft.com/kb/2919355/)</ept> has been installed.</source>
+          <target state="new">Make sure that <bpt id="p1">[</bpt>KB2919355<ept id="p1">](http://support.microsoft.com/kb/2919355/)</ept> has been installed.</target>
+        </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Run the following PowerShell cmdlet to check if the hotfix is installed:</source>
+          <target state="new">Run the following PowerShell cmdlet to check if the hotfix is installed:</target>
+        </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Perform the following steps on the ATA Gateway server.</source>
+          <target state="new">Perform the following steps on the ATA Gateway server.</target>
+        </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Extract the files from the zip file.</source>
+          <target state="new">Extract the files from the zip file.</target>
+        </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>From an elevated command prompt, run Microsoft ATA Gateway Setup.exe and follow the setup wizard.</source>
+          <target state="new">From an elevated command prompt, run Microsoft ATA Gateway Setup.exe and follow the setup wizard.</target>
+        </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+          <target state="new">On the <bpt id="p1">**</bpt>Welcome<ept id="p1">**</ept> page, select your language and click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Under  <bpt id="p1">**</bpt>ATA Gateway Configuration<ept id="p1">**</ept>, enter the following information based on your environment:</source>
+          <target state="new">Under  <bpt id="p1">**</bpt>ATA Gateway Configuration<ept id="p1">**</ept>, enter the following information based on your environment:</target>
+        </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Field</source>
+          <target state="new">Field</target>
+        </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target state="new">Comments</target>
+        </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Installation Path</source>
+          <target state="new">Installation Path</target>
+        </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This is the location where the ATA Gateway will be installed.</source>
+          <target state="new">This is the location where the ATA Gateway will be installed.</target>
+        </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>By default this is  %programfiles%\Microsoft Advanced Threat Analytics\Gateway</source>
+          <target state="new">By default this is  %programfiles%\Microsoft Advanced Threat Analytics\Gateway</target>
+        </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Leave the default value</source>
+          <target state="new">Leave the default value</target>
+        </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>ATA Gateway Service SSL certificate</source>
+          <target state="new">ATA Gateway Service SSL certificate</target>
+        </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This is the certificate that will be used by the ATA Gateway.</source>
+          <target state="new">This is the certificate that will be used by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Use a self-signed certificate for lab environments only.</source>
+          <target state="new">Use a self-signed certificate for lab environments only.</target>
+        </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>ATA Gateway Registration</source>
+          <target state="new">ATA Gateway Registration</target>
+        </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Enter the Username and Password of the ATA administrator.</source>
+          <target state="new">Enter the Username and Password of the ATA administrator.</target>
+        </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For the ATA Gateway to register with the ATA Center, enter the user name and password of the user who installed the ATA Center.</source>
+          <target state="new">For the ATA Gateway to register with the ATA Center, enter the user name and password of the user who installed the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This user must be a member of one of the following local groups on the ATA Center.</source>
+          <target state="new">This user must be a member of one of the following local groups on the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Administrators</source>
+          <target state="new">Administrators</target>
+        </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Microsoft Advanced Threat Analytics Administrators</source>
+          <target state="new">Microsoft Advanced Threat Analytics Administrators</target>
+        </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These credentials are used only for registration and are not stored in ATA.</source>
+          <target state="new"><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> These credentials are used only for registration and are not stored in ATA.</target>
+        </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The following components are installed and configured during the installation of the ATA Gateway:</source>
+          <target state="new">The following components are installed and configured during the installation of the ATA Gateway:</target>
+        </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>KB 3047154</source>
+          <target state="new">KB 3047154</target>
+        </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Do not install KB 3047154 on a virtualization host.</source>
+          <target state="new">Do not install KB 3047154 on a virtualization host.</target>
+        </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This may cause port mirroring to stop working properly.</source>
+          <target state="new">This may cause port mirroring to stop working properly.</target>
+        </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Do not install Message Analyzer, Wireshark, or other network capture software on the ATA Gateway.</source>
+          <target state="new">Do not install Message Analyzer, Wireshark, or other network capture software on the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If you need to capture network traffic, install and use Microsoft Network Monitor 3.4.</source>
+          <target state="new">If you need to capture network traffic, install and use Microsoft Network Monitor 3.4.</target>
+        </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>ATA Gateway service</source>
+          <target state="new">ATA Gateway service</target>
+        </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Microsoft Visual C++ 2013 Redistributable</source>
+          <target state="new">Microsoft Visual C++ 2013 Redistributable</target>
+        </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Custom Performance Monitor data collection set</source>
+          <target state="new">Custom Performance Monitor data collection set</target>
+        </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>After the installation completes, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept>  to open your browser and log in to the ATA Console.</source>
+          <target state="new">After the installation completes, click <bpt id="p1">**</bpt>Launch<ept id="p1">**</ept>  to open your browser and log in to the ATA Console.</target>
+        </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Step 5.</source>
+          <target state="new">Step 5.</target>
+        </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Configure the ATA Gateway settings</source>
+          <target state="new">Configure the ATA Gateway settings</target>
+        </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>After the ATA Gateway was installed, perform the following steps to configure the settings for the ATA Gateway.</source>
+          <target state="new">After the ATA Gateway was installed, perform the following steps to configure the settings for the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>On the ATA Gateway machine, in the ATA Console, click on the <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> and select the <bpt id="p2">**</bpt>ATA Gateways<ept id="p2">**</ept> page.</source>
+          <target state="new">On the ATA Gateway machine, in the ATA Console, click on the <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept> and select the <bpt id="p2">**</bpt>ATA Gateways<ept id="p2">**</ept> page.</target>
+        </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Enter the following information.</source>
+          <target state="new">Enter the following information.</target>
+        </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Field</source>
+          <target state="new">Field</target>
+        </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target state="new">Comments</target>
+        </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="new">Description</target>
+        </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Enter a description of the ATA Gateway (optional).</source>
+          <target state="new">Enter a description of the ATA Gateway (optional).</target>
+        </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Domain controllers<ept id="p1">**</ept> (required)</source>
+          <target state="new"><bpt id="p1">**</bpt>Domain controllers<ept id="p1">**</ept> (required)</target>
+        </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>See below for additional information about the list of controllers.</source>
+          <target state="new">See below for additional information about the list of controllers.</target>
+        </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Enter the complete FQDN of your domain controller and click the plus sign to add it to the list.</source>
+          <target state="new">Enter the complete FQDN of your domain controller and click the plus sign to add it to the list.</target>
+        </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For example,  <bpt id="p1">**</bpt>dc01.contoso.com<ept id="p1">**</ept></source>
+          <target state="new">For example,  <bpt id="p1">**</bpt>dc01.contoso.com<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The objects in the first domain controller in the list will sync via LDAP queries.</source>
+          <target state="new">The objects in the first domain controller in the list will sync via LDAP queries.</target>
+        </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Depending on the size of the domain, this might take some time.</source>
+          <target state="new">Depending on the size of the domain, this might take some time.</target>
+        </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Note:</source>
+          <target state="new">Note:</target>
+        </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Make sure that the first domain controller is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> read-only.</source>
+          <target state="new">Make sure that the first domain controller is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> read-only.</target>
+        </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Read only domain controllers should be added only after the initial sync completes.</source>
+          <target state="new">Read only domain controllers should be added only after the initial sync completes.</target>
+        </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Capture Network adapters<ept id="p1">**</ept> (required)</source>
+          <target state="new"><bpt id="p1">**</bpt>Capture Network adapters<ept id="p1">**</ept> (required)</target>
+        </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Select the network adapters that are connected to the switch that are configured as the destination mirror port to receive the domain controller traffic.</source>
+          <target state="new">Select the network adapters that are connected to the switch that are configured as the destination mirror port to receive the domain controller traffic.</target>
+        </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Select the Capture network adapter.</source>
+          <target state="new">Select the Capture network adapter.</target>
+        </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> It will take a few minutes for the ATA Gateway service to start the first time because it builds the cache of the network capture parsers used by the ATA Gateway.</source>
+          <target state="new"><ph id="ph1">[!NOTE]</ph> It will take a few minutes for the ATA Gateway service to start the first time because it builds the cache of the network capture parsers used by the ATA Gateway.</target>
+        </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The following information applies to the servers you enter in the <bpt id="p1">**</bpt>Domain Controllers<ept id="p1">**</ept> list.</source>
+          <target state="new">The following information applies to the servers you enter in the <bpt id="p1">**</bpt>Domain Controllers<ept id="p1">**</ept> list.</target>
+        </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The first domain controller in the list will be used by the ATA Gateway to sync the objects in the domain via LDAP queries.</source>
+          <target state="new">The first domain controller in the list will be used by the ATA Gateway to sync the objects in the domain via LDAP queries.</target>
+        </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Depending on the size of the domain, this might take some time.</source>
+          <target state="new">Depending on the size of the domain, this might take some time.</target>
+        </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>All domain controllers whose traffic is being monitored via port mirroring by the ATA Gateway must be listed in the <bpt id="p1">**</bpt>Domain Controllers<ept id="p1">**</ept> list.</source>
+          <target state="new">All domain controllers whose traffic is being monitored via port mirroring by the ATA Gateway must be listed in the <bpt id="p1">**</bpt>Domain Controllers<ept id="p1">**</ept> list.</target>
+        </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>If a domain controller is not listed in the <bpt id="p1">**</bpt>Domain Controllers<ept id="p1">**</ept> list, detection of suspicious activities might not function as expected.</source>
+          <target state="new">If a domain controller is not listed in the <bpt id="p1">**</bpt>Domain Controllers<ept id="p1">**</ept> list, detection of suspicious activities might not function as expected.</target>
+        </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Make sure that the first domain controller is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> a read-only domain controller (RODC).</source>
+          <target state="new">Make sure that the first domain controller is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> a read-only domain controller (RODC).</target>
+        </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Read only domain controllers should be added only after the initial sync completes.</source>
+          <target state="new">Read only domain controllers should be added only after the initial sync completes.</target>
+        </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>At least one domain controller in the list be a global catalog server.</source>
+          <target state="new">At least one domain controller in the list be a global catalog server.</target>
+        </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This will enable ATA to resolve computer and user objects in other domains in the forest.</source>
+          <target state="new">This will enable ATA to resolve computer and user objects in other domains in the forest.</target>
+        </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The configuration changes will be applied to the ATA Gateway on the next scheduled sync between the ATA Gateway and the ATA Center.</source>
+          <target state="new">The configuration changes will be applied to the ATA Gateway on the next scheduled sync between the ATA Gateway and the ATA Center.</target>
+        </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Validate installation:</source>
+          <target state="new">Validate installation:</target>
+        </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>To validate that the ATA Gateway has been successfully deployed, check the following:</source>
+          <target state="new">To validate that the ATA Gateway has been successfully deployed, check the following:</target>
+        </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Check that the Microsoft Advanced Threat Analytics Gateway service is running.</source>
+          <target state="new">Check that the Microsoft Advanced Threat Analytics Gateway service is running.</target>
+        </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>After you have saved the ATA Gateway settings, it might take a few minutes for the service to start.</source>
+          <target state="new">After you have saved the ATA Gateway settings, it might take a few minutes for the service to start.</target>
+        </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If the service does not start, review the “Microsoft.Tri.Gateway-Errors.log” file located in the following default folder, “%programfiles%\Microsoft Advanced Threat Analytics\Gateway\Logs”, search for entries with “transfer” or “service start”.</source>
+          <target state="new">If the service does not start, review the “Microsoft.Tri.Gateway-Errors.log” file located in the following default folder, “%programfiles%\Microsoft Advanced Threat Analytics\Gateway\Logs”, search for entries with “transfer” or “service start”.</target>
+        </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Check the following Microsoft ATA Gateway performance counters:</source>
+          <target state="new">Check the following Microsoft ATA Gateway performance counters:</target>
+        </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>NetworkListener Captured Messages / sec<ept id="p1">**</ept>: This counter tracks how many messages are being captured by the ATA per second.</source>
+          <target state="new"><bpt id="p1">**</bpt>NetworkListener Captured Messages / sec<ept id="p1">**</ept>: This counter tracks how many messages are being captured by the ATA per second.</target>
+        </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The value should be mid hundreds to thousands depending on the number of domain controllers being monitored and how busy each domain controller is.</source>
+          <target state="new">The value should be mid hundreds to thousands depending on the number of domain controllers being monitored and how busy each domain controller is.</target>
+        </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Single or double digit values can indicate an issue with the port mirroring configuration.</source>
+          <target state="new">Single or double digit values can indicate an issue with the port mirroring configuration.</target>
+        </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>EntityTransfer Activity Transfers/Sec<ept id="p1">**</ept>: This value should be in the range of a few hundred every few seconds.</source>
+          <target state="new"><bpt id="p1">**</bpt>EntityTransfer Activity Transfers/Sec<ept id="p1">**</ept>: This value should be in the range of a few hundred every few seconds.</target>
+        </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>If this is the first ATA Gateway installed, after a few minutes, log into the ATA Console and open the notification pane by swiping the right side of the screen open.</source>
+          <target state="new">If this is the first ATA Gateway installed, after a few minutes, log into the ATA Console and open the notification pane by swiping the right side of the screen open.</target>
+        </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>You should see a list of <bpt id="p1">**</bpt>Entities Recently Learned<ept id="p1">**</ept> in the notification bar on the right side of the console.</source>
+          <target state="new">You should see a list of <bpt id="p1">**</bpt>Entities Recently Learned<ept id="p1">**</ept> in the notification bar on the right side of the console.</target>
+        </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>To validate that the installation completed successfully:</source>
+          <target state="new">To validate that the installation completed successfully:</target>
+        </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>In the console, search for something in the search bar, such as a user or a group on your domain.</source>
+          <target state="new">In the console, search for something in the search bar, such as a user or a group on your domain.</target>
+        </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Open Performance Monitor.</source>
+          <target state="new">Open Performance Monitor.</target>
+        </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>In the Performance tree, click on <bpt id="p1">**</bpt>Performance Monitor<ept id="p1">**</ept> and then click the plus icon to <bpt id="p2">**</bpt>Add a Counter<ept id="p2">**</ept>.</source>
+          <target state="new">In the Performance tree, click on <bpt id="p1">**</bpt>Performance Monitor<ept id="p1">**</ept> and then click the plus icon to <bpt id="p2">**</bpt>Add a Counter<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Microsoft ATA Gateway<ept id="p1">**</ept> and scroll down to <bpt id="p2">**</bpt>Network Listener Captured Messages per Second<ept id="p2">**</ept> and add it.</source>
+          <target state="new">Expand <bpt id="p1">**</bpt>Microsoft ATA Gateway<ept id="p1">**</ept> and scroll down to <bpt id="p2">**</bpt>Network Listener Captured Messages per Second<ept id="p2">**</ept> and add it.</target>
+        </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Then, make sure you see activity on the graph.</source>
+          <target state="new">Then, make sure you see activity on the graph.</target>
+        </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Step 6.</source>
+          <target state="new">Step 6.</target>
+        </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Configure short-term lease subnets and Honeytoken user</source>
+          <target state="new">Configure short-term lease subnets and Honeytoken user</target>
+        </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Short-term lease subnets are subnets in which the IP address assignment changes very rapidly - within seconds or minutes.</source>
+          <target state="new">Short-term lease subnets are subnets in which the IP address assignment changes very rapidly - within seconds or minutes.</target>
+        </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>For example, IP addresses used for your VPNs and Wi-Fi IP addresses.</source>
+          <target state="new">For example, IP addresses used for your VPNs and Wi-Fi IP addresses.</target>
+        </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>To enter the list of short-term lease subnets used in your organization, follow these steps:</source>
+          <target state="new">To enter the list of short-term lease subnets used in your organization, follow these steps:</target>
+        </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>From the ATA Console on the ATA Gateway machine, click on the settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</source>
+          <target state="new">From the ATA Console on the ATA Gateway machine, click on the settings icon and select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Detection<ept id="p1">**</ept>, enter the following for short-term lease subnets.</source>
+          <target state="new">Under <bpt id="p1">**</bpt>Detection<ept id="p1">**</ept>, enter the following for short-term lease subnets.</target>
+        </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Enter the short-term lease subnets using slash notation format, for example:  <ph id="ph1">`192.168.0.0/24`</ph> and click the plus sign.</source>
+          <target state="new">Enter the short-term lease subnets using slash notation format, for example:  <ph id="ph1">`192.168.0.0/24`</ph> and click the plus sign.</target>
+        </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>For the Honeytoken account SIDs, enter the SID for the user account that will have no network activity, and click the plus sign.</source>
+          <target state="new">For the Honeytoken account SIDs, enter the SID for the user account that will have no network activity, and click the plus sign.</target>
+        </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>For example: <ph id="ph1">`S-1-5-21-72081277-1610778489-2625714895-10511`</ph>.</source>
+          <target state="new">For example: <ph id="ph1">`S-1-5-21-72081277-1610778489-2625714895-10511`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> To find the SID for a user, run the following Windows PowerShell cmdlet <ph id="ph2">`Get-ADUser UserName`</ph>.</source>
+          <target state="new"><ph id="ph1">[!NOTE]</ph> To find the SID for a user, run the following Windows PowerShell cmdlet <ph id="ph2">`Get-ADUser UserName`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Configure exclusions: You can configure IP addresses to be excluded from specific suspicious activities.</source>
+          <target state="new">Configure exclusions: You can configure IP addresses to be excluded from specific suspicious activities.</target>
+        </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Working with ATA Detection Settings<ept id="p1">](./small.md)</ept> for more information.</source>
+          <target state="new">See <bpt id="p1">[</bpt>Working with ATA Detection Settings<ept id="p1">](./small.md)</ept> for more information.</target>
+        </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Congratulations, you have successfully deployed Microsoft Advanced Threat Analytics!</source>
+          <target state="new">Congratulations, you have successfully deployed Microsoft Advanced Threat Analytics!</target>
+        </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Check the attack time line to view detected suspicious activities and search for users or computers and view their profiles.</source>
+          <target state="new">Check the attack time line to view detected suspicious activities and search for users or computers and view their profiles.</target>
+        </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Remember that it takes a minimum of three weeks for ATA to build behavioral profiles, so during the first three weeks you will not see any  suspicious behavior activities.</source>
+          <target state="new">Remember that it takes a minimum of three weeks for ATA to build behavioral profiles, so during the first three weeks you will not see any  suspicious behavior activities.</target>
+        </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>See Also</source>
+          <target state="new">See Also</target>
+        </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>For support, check out our forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Configure Event Collection<ept id="p2">](./small.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>ATA Prerequisites<ept id="p3">](./small.md)</ept></source>
+          <target state="new"><bpt id="p1">[</bpt>For support, check out our forum!<ept id="p1">](https://social.technet.microsoft.com/Forums/security/en-US/home?forum=mata)</ept><ph id="ph1">
+</ph><bpt id="p2">[</bpt>Configure Event Collection<ept id="p2">](./small.md)</ept><ph id="ph2">
+</ph><bpt id="p3">[</bpt>ATA Prerequisites<ept id="p3">](./small.md)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

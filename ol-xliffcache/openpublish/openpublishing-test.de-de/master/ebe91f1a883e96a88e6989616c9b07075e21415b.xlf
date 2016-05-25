@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\hubpage\index.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebe91f1a883e96a88e6989616c9b07075e21415b</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Microsoft Enterprise Mobility</source>
+          <target state="new">Microsoft Enterprise Mobility</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Microsoft Enterprise Mobility</source>
+          <target state="new">Microsoft Enterprise Mobility</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Microsoft's Enterprise Mobility solutions enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected.</source>
+          <target state="new">Microsoft's Enterprise Mobility solutions enable organizations to keep their employees productive across apps and devices while ensuring that corporate data is protected.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Select a solution for in-depth technical knowledge and documentation or read about common scenarios that require multiple Enterprise Mobility solutions to come together and solve a business problem.</source>
+          <target state="new">Select a solution for in-depth technical knowledge and documentation or read about common scenarios that require multiple Enterprise Mobility solutions to come together and solve a business problem.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>New to Enterprise Mobility?</source>
+          <target state="new">New to Enterprise Mobility?</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Visit the Enterprise Mobility Suite page</source>
+          <target state="new">Visit the Enterprise Mobility Suite page</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Ready to get hands-on?</source>
+          <target state="new">Ready to get hands-on?</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Test drive EMS today for free for 30 days</source>
+          <target state="new">Test drive EMS today for free for 30 days</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Keep up with news about EMS on the <ph id="ph1">&lt;a href="https://blogs.technet.microsoft.com/in_the_cloud/" title="" target="_blank"&gt;</ph>In the Cloud blog.</source>
+          <target state="new">Keep up with news about EMS on the <ph id="ph1">&lt;a href="https://blogs.technet.microsoft.com/in_the_cloud/" title="" target="_blank"&gt;</ph>In the Cloud blog.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Scenarios and Guides</source>
+          <target state="new">Scenarios and Guides</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Mobile Device Management Design Considerations Guide</source>
+          <target state="new">Mobile Device Management Design Considerations Guide</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Hybrid Identity Design Considerations Guide</source>
+          <target state="new">Hybrid Identity Design Considerations Guide</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Bring Your Own Device Design Considerations Guide</source>
+          <target state="new">Bring Your Own Device Design Considerations Guide</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Configure Conditional Access with Intune</source>
+          <target state="new">Configure Conditional Access with Intune</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Securing Access to Company Resources from Any Device</source>
+          <target state="new">Securing Access to Company Resources from Any Device</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Protect Company Email <ph id="ph1">&amp;amp;</ph> Documents</source>
+          <target state="new">Protect Company Email <ph id="ph1">&amp;amp;</ph> Documents</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Identity and Access Management</source>
+          <target state="new">Identity and Access Management</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enterprise-grade identity and access management for nearly any app or device, cloud, or on-premises.</source>
+          <target state="new">Enterprise-grade identity and access management for nearly any app or device, cloud, or on-premises.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Delivers single sign-on, multi-factor authentication, self-service passwords, and more</source>
+          <target state="new">Delivers single sign-on, multi-factor authentication, self-service passwords, and more</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory</source>
+          <target state="new">Azure Active Directory</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Synchronize on-premises directories and enable single sign-on</source>
+          <target state="new">Synchronize on-premises directories and enable single sign-on</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Multi-Factor Authentication</source>
+          <target state="new">Azure Multi-Factor Authentication</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Safeguard access to your data and apps with an extra level of authentication</source>
+          <target state="new">Safeguard access to your data and apps with an extra level of authentication</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Microsoft Identity Manager</source>
+          <target state="new">Microsoft Identity Manager</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Configure identity and access management that is secure, flexible, and cloud ready</source>
+          <target state="new">Configure identity and access management that is secure, flexible, and cloud ready</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Mobile Device and Application Management</source>
+          <target state="new">Mobile Device and Application Management</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Cloud-based enterprise mobility management that helps you control employee access to corporate applications and data on virtually any device</source>
+          <target state="new">Cloud-based enterprise mobility management that helps you control employee access to corporate applications and data on virtually any device</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Intune</source>
+          <target state="new">Intune</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Manage and protect corporate apps and data on devices using the MDM and MAM capabilities of Intune</source>
+          <target state="new">Manage and protect corporate apps and data on devices using the MDM and MAM capabilities of Intune</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Information Protection and Security</source>
+          <target state="new">Information Protection and Security</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Protect corporate data by allowing more secure access to company resources and enabling safe sharing of sensitive information inside and outside your organization</source>
+          <target state="new">Protect corporate data by allowing more secure access to company resources and enabling safe sharing of sensitive information inside and outside your organization</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Rights Management</source>
+          <target state="new">Azure Rights Management</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Protect your information from unauthorized access and control how information is used</source>
+          <target state="new">Protect your information from unauthorized access and control how information is used</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Advanced Threat Analytics</source>
+          <target state="new">Advanced Threat Analytics</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Identify breaches and threats using behavioral analysis and create reports on a simple attack timeline</source>
+          <target state="new">Identify breaches and threats using behavioral analysis and create reports on a simple attack timeline</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Desktop Virtualization</source>
+          <target state="new">Desktop Virtualization</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure</source>
+          <target state="new">Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure RemoteApp</source>
+          <target state="new">Azure RemoteApp</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Deploy Windows cloud apps in the cloud and run on any device</source>
+          <target state="new">Deploy Windows cloud apps in the cloud and run on any device</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Sign Up <ph id="ph1">&lt;span class="icon icon-next"&gt;&lt;/span&gt;&lt;/a&gt;</ph>Sign up for a free 30-day trial of Enterprise Mobility Suite</source>
+          <target state="new">Sign Up <ph id="ph1">&lt;span class="icon icon-next"&gt;&lt;/span&gt;&lt;/a&gt;</ph>Sign up for a free 30-day trial of Enterprise Mobility Suite</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

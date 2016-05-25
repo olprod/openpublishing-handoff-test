@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\index.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6436ab21767365976e2832b78b28a1062cd88c61</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Welcome!</source>
+          <target state="new">Welcome!</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Purpose</source>
+          <target state="new">Purpose</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This repo is for open publishing e2e test.</source>
+          <target state="new">This repo is for open publishing e2e test.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Feature owners are encouraged to make changes of documents and resources in the repo to test e2e scenarios.</source>
+          <target state="new">Feature owners are encouraged to make changes of documents and resources in the repo to test e2e scenarios.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For OPS documentation, please refer to <bpt id="p1">[</bpt>openpublishing-docs<ept id="p1">](https://ppe.msdn.microsoft.com/en-us/openpublishing/docs?branch=master)</ept>.</source>
+          <target state="new">For OPS documentation, please refer to <bpt id="p1">[</bpt>openpublishing-docs<ept id="p1">](https://ppe.msdn.microsoft.com/en-us/openpublishing/docs?branch=master)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Provisioning</source>
+          <target state="new">Provisioning</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Currently, there is one docset in the repo: <bpt id="p1">**</bpt>openpublishing-test<ept id="p1">**</ept></source>
+          <target state="new">Currently, there is one docset in the repo: <bpt id="p1">**</bpt>openpublishing-test<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!NOTE]</ph> The docset is provisioned for both MSDN and Docs.</source>
+          <target state="new"><ph id="ph1">[!NOTE]</ph> The docset is provisioned for both MSDN and Docs.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Link to MSDN dynamic rendering stack</source>
+          <target state="new">Link to MSDN dynamic rendering stack</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Link to MSDN static rendering stack (Int)</source>
+          <target state="new">Link to MSDN static rendering stack (Int)</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Link to Docs (Int)</source>
+          <target state="new">Link to Docs (Int)</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Link to Docs (Stage)</source>
+          <target state="new">Link to Docs (Stage)</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Link to Docs (Prod)</source>
+          <target state="new">Link to Docs (Prod)</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>How to contribute</source>
+          <target state="new">How to contribute</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, members of <bpt id="p1">[</bpt>Microsoft/vsc-eng-team<ept id="p1">](https://github.com/orgs/Microsoft/teams/vsc-eng-team)</ept> team have write permission to the repo.</source>
+          <target state="new">By default, members of <bpt id="p1">[</bpt>Microsoft/vsc-eng-team<ept id="p1">](https://github.com/orgs/Microsoft/teams/vsc-eng-team)</ept> team have write permission to the repo.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Please contact the owner of the team if you'd like to contribute.</source>
+          <target state="new">Please contact the owner of the team if you'd like to contribute.</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You are encouraged to modify the contents in your own branch, please create a branch named after your alias - DO NOT modify others' branches!</source>
+          <target state="new">You are encouraged to modify the contents in your own branch, please create a branch named after your alias - DO NOT modify others' branches!</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
