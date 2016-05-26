@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\abtesting\users-manual-content.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8428865b986c25045585c67477975957a055cd8d</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-3d52e17" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>User's Manual - Content Level A/B Testing</source>
+          <target state="new">User's Manual - Content Level A/B Testing</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Prerequisite:</source>
+          <target state="new">Prerequisite:</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Please follow the step <bpt id="p1">[</bpt>How to Join the Microsoft GitHub Organization<ept id="p1">](http://https://opensourcehub.microsoft.com/articles/how-to-join-microsoft-github-org-self-service)</ept> to link your GitHub account with Microsoft organization.</source>
+          <target state="new">Please follow the step <bpt id="p1">[</bpt>How to Join the Microsoft GitHub Organization<ept id="p1">](http://https://opensourcehub.microsoft.com/articles/how-to-join-microsoft-github-org-self-service)</ept> to link your GitHub account with Microsoft organization.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Read the CSI instruction to understand the process how to <ph id="ph1">`CREATE` / `EDIT` / `COMMIT`</ph> Markdown file to GitHub.</source>
+          <target state="new">Read the CSI instruction to understand the process how to <ph id="ph1">`CREATE` / `EDIT` / `COMMIT`</ph> Markdown file to GitHub.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use working branch before merge into Live environment which is always a <bpt id="p1">**</bpt>BEST PRACTISE<ept id="p1">**</ept>.</source>
+          <target state="new">Use working branch before merge into Live environment which is always a <bpt id="p1">**</bpt>BEST PRACTISE<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Step-by-step:</source>
+          <target state="new">Step-by-step:</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create a new experiment - Part I: Set up the experimental files.</source>
+          <target state="new">Create a new experiment - Part I: Set up the experimental files.</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The A/B test requires two separate markdown files, the A variant, and the B variant.</source>
+          <target state="new">The A/B test requires two separate markdown files, the A variant, and the B variant.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You may already have an A variant as an existing published page.</source>
+          <target state="new">You may already have an A variant as an existing published page.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Switch to your Stage branch.</source>
+          <target state="new">Switch to your Stage branch.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you are working locally, switch to your local staging branch.</source>
+          <target state="new">If you are working locally, switch to your local staging branch.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The staging branch is whichever branch you use to commit changes that will be published to <bpt id="p1">[</bpt>stage endpoint<ept id="p1">](https://stage.docs.microsoft.com)</ept>.</source>
+          <target state="new">The staging branch is whichever branch you use to commit changes that will be published to <bpt id="p1">[</bpt>stage endpoint<ept id="p1">](https://stage.docs.microsoft.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Edit Variant A Page:</source>
+          <target state="new">Edit Variant A Page:</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Edit your source file (Page A) by adding the following metadata::</source>
+          <target state="new">Edit your source file (Page A) by adding the following metadata::</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>experiment_id is the unique id for your experiment.</source>
+          <target state="new">experiment_id is the unique id for your experiment.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>We recommend that your experiment id be of the form <ph id="ph1">&amp;lt;</ph>youralias<ph id="ph2">&amp;gt;-&amp;lt;</ph>experimentname<ph id="ph3">&amp;gt;-&amp;lt;</ph>date</source>
+          <target state="new">We recommend that your experiment id be of the form <ph id="ph1">&amp;lt;</ph>youralias<ph id="ph2">&amp;gt;-&amp;lt;</ph>experimentname<ph id="ph3">&amp;gt;-&amp;lt;</ph>date</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create Variant B Page:</source>
+          <target state="new">Create Variant B Page:</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create a Variant B page for the topic in the same folder using all of Page A’s original metadata.</source>
+          <target state="new">Create a Variant B page for the topic in the same folder using all of Page A’s original metadata.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Add the experiment_id field and use the same experiment ID you created for the A variant.</source>
+          <target state="new">Add the experiment_id field and use the same experiment ID you created for the A variant.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Use the following file name structure when you save the Variant B page: <ph id="ph1">&amp;lt;</ph>sourcefilename<ph id="ph2">&amp;gt;</ph>.experimental.md.</source>
+          <target state="new">Use the following file name structure when you save the Variant B page: <ph id="ph1">&amp;lt;</ph>sourcefilename<ph id="ph2">&amp;gt;</ph>.experimental.md.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If Variant A is CSI-demo.md, then Variant B should be CSI-demo.experimental.md</source>
+          <target state="new">If Variant A is CSI-demo.md, then Variant B should be CSI-demo.experimental.md</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Add and commit your changes.</source>
+          <target state="new">Add and commit your changes.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you are working locally, you will have to merge these local changes with the staging branch on GitHub with a pull request.</source>
+          <target state="new">If you are working locally, you will have to merge these local changes with the staging branch on GitHub with a pull request.</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you are working on GitHub, simply commit the changes.</source>
+          <target state="new">If you are working on GitHub, simply commit the changes.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Once the files are committed to the staging branch on GitHub,  it will automatically trigger the OP build for the staging branch.</source>
+          <target state="new">Once the files are committed to the staging branch on GitHub,  it will automatically trigger the OP build for the staging branch.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Preview the result from portal</source>
+          <target state="new">Preview the result from portal</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Open OP Portal, wait until the build is completed without error message</source>
+          <target state="new">Open OP Portal, wait until the build is completed without error message</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Open stage site and preview the result</source>
+          <target state="new">Open stage site and preview the result</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
