@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\abtesting\users-manual-content.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f196738630f6c27d759091340c0cf0bc61cb44bd</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e58fd48" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>User's Manual - Content Level A/B Testing</source>
+          <target state="new">User's Manual - Content Level A/B Testing</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Prerequisite</source>
+          <target state="new">Prerequisite</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Please follow the step <bpt id="p1">[</bpt>How to Join the Microsoft GitHub Organization<ept id="p1">](http://https://opensourcehub.microsoft.com/articles/how-to-join-microsoft-github-org-self-service)</ept> to link your GitHub account with Microsoft organization.</source>
+          <target state="new">Please follow the step <bpt id="p1">[</bpt>How to Join the Microsoft GitHub Organization<ept id="p1">](http://https://opensourcehub.microsoft.com/articles/how-to-join-microsoft-github-org-self-service)</ept> to link your GitHub account with Microsoft organization.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Read the CSI instruction to understand the process how to <bpt id="p1">**</bpt>CREATE<ept id="p1">**</ept><ph id="ph1"> / </ph><bpt id="p2">**</bpt>EDIT<ept id="p2">**</ept><ph id="ph2"> /</ph><bpt id="p3">**</bpt>COMMIT<ept id="p3">**</ept> Markdown file to GitHub.</source>
+          <target state="new">Read the CSI instruction to understand the process how to <bpt id="p1">**</bpt>CREATE<ept id="p1">**</ept><ph id="ph1"> / </ph><bpt id="p2">**</bpt>EDIT<ept id="p2">**</ept><ph id="ph2"> /</ph><bpt id="p3">**</bpt>COMMIT<ept id="p3">**</ept> Markdown file to GitHub.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This manual really don't take content creation/revision into consideration.</source>
+          <target state="new">This manual really don't take content creation/revision into consideration.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">**</bpt>working<ept id="p1">**</ept> branch before merge into Live environment which is always a <bpt id="p2">**</bpt>BEST PRACTISE<ept id="p2">**</ept>.</source>
+          <target state="new">Use <bpt id="p1">**</bpt>working<ept id="p1">**</ept> branch before merge into Live environment which is always a <bpt id="p2">**</bpt>BEST PRACTISE<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Step-by-step</source>
+          <target state="new">Step-by-step</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a new experiment</source>
+          <target state="new">Create a new experiment</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Part I: Set up the experimental files in your working branch.</source>
+          <target state="new">Part I: Set up the experimental files in your working branch.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The A/B test requires two separate markdown files, the A variant, and the B variant.</source>
+          <target state="new">The A/B test requires two separate markdown files, the A variant, and the B variant.</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You may already have an A variant as an existing published page.</source>
+          <target state="new">You may already have an A variant as an existing published page.</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Switch to your <bpt id="p1">**</bpt>working<ept id="p1">**</ept> branch:</source>
+          <target state="new">Switch to your <bpt id="p1">**</bpt>working<ept id="p1">**</ept> branch:</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you are working locally, switch to your local staging branch.</source>
+          <target state="new">If you are working locally, switch to your local staging branch.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The staging branch is whichever branch you use to commit changes that will be published to <bpt id="p1">[</bpt>stage endpoint<ept id="p1">](https://stage.docs.microsoft.com)</ept>.</source>
+          <target state="new">The staging branch is whichever branch you use to commit changes that will be published to <bpt id="p1">[</bpt>stage endpoint<ept id="p1">](https://stage.docs.microsoft.com)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Edit Variant A Page:</source>
+          <target state="new">Edit Variant A Page:</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Edit your source file (Page A) by adding the following metadata::</source>
+          <target state="new">Edit your source file (Page A) by adding the following metadata::</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`experiment:true`
+`experiment_id:`</ph>,</source>
+          <target state="new"><ph id="ph1">`experiment:true`
+`experiment_id:`</ph>,</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>is the unique id for your experiment.</source>
+          <target state="new">is the unique id for your experiment.</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>We recommend that your experiment id be of the form <ph id="ph1">&amp;lt;</ph>youralias<ph id="ph2">&amp;gt;-&amp;lt;</ph>experimentname<ph id="ph3">&amp;gt;-&amp;lt;</ph>date</source>
+          <target state="new">We recommend that your experiment id be of the form <ph id="ph1">&amp;lt;</ph>youralias<ph id="ph2">&amp;gt;-&amp;lt;</ph>experimentname<ph id="ph3">&amp;gt;-&amp;lt;</ph>date</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create Variant B Page:</source>
+          <target state="new">Create Variant B Page:</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a Variant B page for the topic in the same folder using all of Page A’s original metadata.</source>
+          <target state="new">Create a Variant B page for the topic in the same folder using all of Page A’s original metadata.</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Add the <ph id="ph1">`experiment_id`</ph> field and use the same experiment ID you created for the A variant.</source>
+          <target state="new">Add the <ph id="ph1">`experiment_id`</ph> field and use the same experiment ID you created for the A variant.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Use the following file name structure when you save the Variant B page: <ph id="ph1">&amp;lt;</ph>sourcefilename<ph id="ph2">&amp;gt;`.experimental.md`</ph>.</source>
+          <target state="new">Use the following file name structure when you save the Variant B page: <ph id="ph1">&amp;lt;</ph>sourcefilename<ph id="ph2">&amp;gt;`.experimental.md`</ph>.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+          <target state="new">For example:</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If A Variant is CSI-demo.md, then B Variant should be CSI-demo.experimental.md</source>
+          <target state="new">If A Variant is CSI-demo.md, then B Variant should be CSI-demo.experimental.md</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Add and commit your changes:</source>
+          <target state="new">Add and commit your changes:</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you are working locally, you will have to merge these local changes with the staging branch on GitHub with a pull request.</source>
+          <target state="new">If you are working locally, you will have to merge these local changes with the staging branch on GitHub with a pull request.</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you are working on GitHub, simply commit the changes.</source>
+          <target state="new">If you are working on GitHub, simply commit the changes.</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Once the files are committed to the staging branch on GitHub,  it will automatically trigger the OP build for the staging branch.</source>
+          <target state="new">Once the files are committed to the staging branch on GitHub,  it will automatically trigger the OP build for the staging branch.</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Preview the result from portal:</source>
+          <target state="new">Preview the result from portal:</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Open OP Portal, wait until the build is completed without error message.</source>
+          <target state="new">Open OP Portal, wait until the build is completed without error message.</target>
+        </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Open stage site and preview the result.</source>
+          <target state="new">Open stage site and preview the result.</target>
+        </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Merge your Variant A and Variant B to Live branch</source>
+          <target state="new">Merge your Variant A and Variant B to Live branch</target>
+        </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Once you’ve confirmed that the A and B variants are available on the staging server, merge your Variant A and Variant B files to the <bpt id="p1">**</bpt>Live<ept id="p1">**</ept> branch for publication to the production site.</source>
+          <target state="new">Once you’ve confirmed that the A and B variants are available on the staging server, merge your Variant A and Variant B files to the <bpt id="p1">**</bpt>Live<ept id="p1">**</ept> branch for publication to the production site.</target>
+        </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Part II: Create an Experiment on A/B Testing Configuration Portal.</source>
+          <target state="new">Part II: Create an Experiment on A/B Testing Configuration Portal.</target>
+        </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create an experiment:</source>
+          <target state="new">Create an experiment:</target>
+        </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Open <bpt id="p1">[</bpt>A/B Configuration portal<ept id="p1">](https://abtestingportal.azurewebsites.net/#/experiments)</ept>, and click <bpt id="p2">**</bpt>ADD EXPERIMENT<ept id="p2">**</ept> to create a new experiment.</source>
+          <target state="new">Open <bpt id="p1">[</bpt>A/B Configuration portal<ept id="p1">](https://abtestingportal.azurewebsites.net/#/experiments)</ept>, and click <bpt id="p2">**</bpt>ADD EXPERIMENT<ept id="p2">**</ept> to create a new experiment.</target>
+        </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Save the experiment.</source>
+          <target state="new">Save the experiment.</target>
+        </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You will be returned to the experimentation portal front page.</source>
+          <target state="new">You will be returned to the experimentation portal front page.</target>
+        </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Preview the result by adding prefix <ph id="ph1">`https://stage.docs.microsoft.com/_chrome/experiment.htm#`</ph> to switch between your Page A and B.</source>
+          <target state="new">Preview the result by adding prefix <ph id="ph1">`https://stage.docs.microsoft.com/_chrome/experiment.htm#`</ph> to switch between your Page A and B.</target>
+        </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Setup Metrics:</source>
+          <target state="new">Setup Metrics:</target>
+        </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Expand the experiment from <bpt id="p1">[</bpt>A/B Configuration portal<ept id="p1">](https://abtestingportal.azurewebsites.net/#/experiments)</ept>.</source>
+          <target state="new">Expand the experiment from <bpt id="p1">[</bpt>A/B Configuration portal<ept id="p1">](https://abtestingportal.azurewebsites.net/#/experiments)</ept>.</target>
+        </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>EDIT<ept id="p1">**</ept> from <bpt id="p2">**</bpt>METRIC CONFIG<ept id="p2">**</ept> tab.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>EDIT<ept id="p1">**</ept> from <bpt id="p2">**</bpt>METRIC CONFIG<ept id="p2">**</ept> tab.</target>
+        </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Start the experiment:</source>
+          <target state="new">Start the experiment:</target>
+        </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>START<ept id="p1">**</ept> button to start the experiment.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>START<ept id="p1">**</ept> button to start the experiment.</target>
+        </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Monitoring and Reports</source>
+          <target state="new">Monitoring and Reports</target>
+        </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Monitor the metric counters:</source>
+          <target state="new">Monitor the metric counters:</target>
+        </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select the counter from <bpt id="p1">**</bpt>Metrics Counter<ept id="p1">**</ept>, and click <bpt id="p2">**</bpt>METRIC RESULT<ept id="p2">**</ept> to show the result.</source>
+          <target state="new">Select the counter from <bpt id="p1">**</bpt>Metrics Counter<ept id="p1">**</ept>, and click <bpt id="p2">**</bpt>METRIC RESULT<ept id="p2">**</ept> to show the result.</target>
+        </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>(NOTE, it will takes about 4-6 hrs to show the result because of the latency time from WEDCS)</source>
+          <target state="new">(NOTE, it will takes about 4-6 hrs to show the result because of the latency time from WEDCS)</target>
+        </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Offline metric report:</source>
+          <target state="new">Offline metric report:</target>
+        </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>ADD<ept id="p1">**</ept> button on the Metrics Report from left panel to Create a report.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>ADD<ept id="p1">**</ept> button on the Metrics Report from left panel to Create a report.</target>
+        </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Click "Run Report" in the button of the foorm.</source>
+          <target state="new">Click "Run Report" in the button of the foorm.</target>
+        </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Export the report to .cvs file once it is <bpt id="p1">**</bpt>FINISHED<ept id="p1">**</ept></source>
+          <target state="new">Export the report to .cvs file once it is <bpt id="p1">**</bpt>FINISHED<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Clean up A/B testing once it is completed.</source>
+          <target state="new">Clean up A/B testing once it is completed.</target>
+        </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Backup the result Export the result from METRIC RESULT to Excel:</source>
+          <target state="new">Backup the result Export the result from METRIC RESULT to Excel:</target>
+        </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Open A/B Configuration portal, and select the experiment.</source>
+          <target state="new">Open A/B Configuration portal, and select the experiment.</target>
+        </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Select the Metric, click <bpt id="p1">**</bpt>METRIC RESULT<ept id="p1">**</ept> tab, and then click <bpt id="p2">**</bpt>EXPORT EXCEL<ept id="p2">**</ept> to export the result.</source>
+          <target state="new">Select the Metric, click <bpt id="p1">**</bpt>METRIC RESULT<ept id="p1">**</ept> tab, and then click <bpt id="p2">**</bpt>EXPORT EXCEL<ept id="p2">**</ept> to export the result.</target>
+        </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Repeat the <bpt id="p1">**</bpt>EXPORT EXCEL<ept id="p1">**</ept> for all the related metrics.</source>
+          <target state="new">Repeat the <bpt id="p1">**</bpt>EXPORT EXCEL<ept id="p1">**</ept> for all the related metrics.</target>
+        </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Stop the experiment:</source>
+          <target state="new">Stop the experiment:</target>
+        </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>STOP<ept id="p1">**</ept> button to stop the experiment.</source>
+          <target state="new">Click the <bpt id="p1">**</bpt>STOP<ept id="p1">**</ept> button to stop the experiment.</target>
+        </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Delete the experiment from <bpt id="p1">[</bpt>A/B Configuration portal<ept id="p1">](https://abtestingportal.azurewebsites.net/#/experiments)</ept>:</source>
+          <target state="new">Delete the experiment from <bpt id="p1">[</bpt>A/B Configuration portal<ept id="p1">](https://abtestingportal.azurewebsites.net/#/experiments)</ept>:</target>
+        </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>DELETE<ept id="p1">**</ept> button to remove the experiment from the list.</source>
+          <target state="new">Click <bpt id="p1">**</bpt>DELETE<ept id="p1">**</ept> button to remove the experiment from the list.</target>
+        </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Clean up unnecessary Variant version.</source>
+          <target state="new">Clean up unnecessary Variant version.</target>
+        </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Once the experiment is finished, you should keep the final version, and delete the unnecessary version from document repo.</source>
+          <target state="new">Once the experiment is finished, you should keep the final version, and delete the unnecessary version from document repo.</target>
+        </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If choose Variant A, delete the Variant B.</source>
+          <target state="new">If choose Variant A, delete the Variant B.</target>
+        </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If choose Variant B, copy the content from Variant B to Variant A and delete Variant B.</source>
+          <target state="new">If choose Variant B, copy the content from Variant B to Variant A and delete Variant B.</target>
+        </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Clean up metadata from Markdown file</source>
+          <target state="new">Clean up metadata from Markdown file</target>
+        </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Remove <ph id="ph1">`experiment:true`</ph> and <ph id="ph2">`experiment_id`</ph> from final Markdown file</source>
+          <target state="new">Remove <ph id="ph1">`experiment:true`</ph> and <ph id="ph2">`experiment_id`</ph> from final Markdown file</target>
+        </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Commit changes.</source>
+          <target state="new">Commit changes.</target>
+        </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Other Resources</source>
+          <target state="new">Other Resources</target>
+        </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Environment: <bpt id="p1">[</bpt>Environments - Content Level<ept id="p1">](http://onenote:#Environments%20-%20Content%20Level&amp;section-id={7011B86A-3C76-4C37-8F41-C26A380ADAEC}&amp;page-id={B1125C68-7C08-49DA-A45C-8ADE3A315520}&amp;end&amp;base-path=https://microsoft.sharepoint.com/teams/Visual_Studio_China/Shared%20Documents/Open%20Publishing/AB%20Testing.)</ept></source>
+          <target state="new">Environment: <bpt id="p1">[</bpt>Environments - Content Level<ept id="p1">](http://onenote:#Environments%20-%20Content%20Level&amp;section-id={7011B86A-3C76-4C37-8F41-C26A380ADAEC}&amp;page-id={B1125C68-7C08-49DA-A45C-8ADE3A315520}&amp;end&amp;base-path=https://microsoft.sharepoint.com/teams/Visual_Studio_China/Shared%20Documents/Open%20Publishing/AB%20Testing.)</ept></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
