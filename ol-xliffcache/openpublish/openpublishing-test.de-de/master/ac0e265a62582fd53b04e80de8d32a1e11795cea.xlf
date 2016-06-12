@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="de-de">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\abtesting\index.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac0e265a62582fd53b04e80de8d32a1e11795cea</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-e58fd48" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A/B Testing</source>
+          <target state="new">A/B Testing</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Content Level A/B Testing:<ept id="p1">**</ept> A/B testing on specific documents or resources.</source>
+          <target state="new"><bpt id="p1">**</bpt>Content Level A/B Testing:<ept id="p1">**</ept> A/B testing on specific documents or resources.</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Global Level A/B Testing:<ept id="p1">**</ept> A/B testing on a wide scope, for example theme and page layout which applies to all articles in a given site (or specific locale).</source>
+          <target state="new"><bpt id="p1">**</bpt>Global Level A/B Testing:<ept id="p1">**</ept> A/B testing on a wide scope, for example theme and page layout which applies to all articles in a given site (or specific locale).</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Content Level A/B Testing</source>
+          <target state="new">Content Level A/B Testing</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Content Level A/B Testing<ept id="p1">*</ept> allows <bpt id="p2">**</bpt>content owners<ept id="p2">**</ept> to self-service, having variants of contents delivered from the same URL, specifying the split ratio and getting the BI statistics.</source>
+          <target state="new"><bpt id="p1">*</bpt>Content Level A/B Testing<ept id="p1">*</ept> allows <bpt id="p2">**</bpt>content owners<ept id="p2">**</ept> to self-service, having variants of contents delivered from the same URL, specifying the split ratio and getting the BI statistics.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, writers can have <bpt id="p1">**</bpt>hello.md<ept id="p1">**</ept> and <bpt id="p2">**</bpt>hello.experimental.md<ept id="p2">**</ept>, and specify that only 10% of the end users would see the experimental version of the document.</source>
+          <target state="new">For example, writers can have <bpt id="p1">**</bpt>hello.md<ept id="p1">**</ept> and <bpt id="p2">**</bpt>hello.experimental.md<ept id="p2">**</ept>, and specify that only 10% of the end users would see the experimental version of the document.</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Design Principles:</source>
+          <target state="new">Design Principles:</target>
+        </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Keep things <bpt id="p1">**</bpt>simpler<ept id="p1">**</ept> if possible, avoid over design - especially piling up features that are not actually used.</source>
+          <target state="new">Keep things <bpt id="p1">**</bpt>simpler<ept id="p1">**</ept> if possible, avoid over design - especially piling up features that are not actually used.</target>
+        </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>All <bpt id="p1">**</bpt>types of contents<ept id="p1">**</ept> should be able to run A/B testing, including markdown files, plain HTML files, images and audio/video files.</source>
+          <target state="new">All <bpt id="p1">**</bpt>types of contents<ept id="p1">**</ept> should be able to run A/B testing, including markdown files, plain HTML files, images and audio/video files.</target>
+        </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The A/B testing <bpt id="p1">**</bpt>granularity<ept id="p1">**</ept> should be flexible, either covering a single document, or a large group of assets (e.g. images).</source>
+          <target state="new">The A/B testing <bpt id="p1">**</bpt>granularity<ept id="p1">**</ept> should be flexible, either covering a single document, or a large group of assets (e.g. images).</target>
+        </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Users should be <bpt id="p1">**</bpt>affinitized<ept id="p1">**</ept>, which means once a user was routed to version A, he/she should always see version A document unless the browser session info has been explicitly wiped out (e.g. Ctrl + Shift + Delete or InPrivate Session).</source>
+          <target state="new">Users should be <bpt id="p1">**</bpt>affinitized<ept id="p1">**</ept>, which means once a user was routed to version A, he/she should always see version A document unless the browser session info has been explicitly wiped out (e.g. Ctrl + Shift + Delete or InPrivate Session).</target>
+        </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Should be <bpt id="p1">**</bpt>fast<ept id="p1">**</ept>, creating a new test, turning on/off an A/B testing, or updating the split ratio should take effect in <bpt id="p2">**</bpt>less than 30 seconds<ept id="p2">**</ept>.</source>
+          <target state="new">Should be <bpt id="p1">**</bpt>fast<ept id="p1">**</ept>, creating a new test, turning on/off an A/B testing, or updating the split ratio should take effect in <bpt id="p2">**</bpt>less than 30 seconds<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Corner cases should be covered properly<ept id="p1">**</ept>, A/B testing should work smoothly in a <bpt id="p2">**</bpt>CDN environment<ept id="p2">**</ept>.</source>
+          <target state="new"><bpt id="p1">**</bpt>Corner cases should be covered properly<ept id="p1">**</ept>, A/B testing should work smoothly in a <bpt id="p2">**</bpt>CDN environment<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Also, special logic should be in place to make sure only the default variant <bpt id="p1">*</bpt>"the A version"<ept id="p1">*</ept> is retrieved by <bpt id="p2">**</bpt>search crawlers<ept id="p2">**</ept> like Google and Bing.</source>
+          <target state="new">Also, special logic should be in place to make sure only the default variant <bpt id="p1">*</bpt>"the A version"<ept id="p1">*</ept> is retrieved by <bpt id="p2">**</bpt>search crawlers<ept id="p2">**</ept> like Google and Bing.</target>
+        </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Naturally <bpt id="p1">**</bpt>integrated<ept id="p1">**</ept> into BI and Insights.</source>
+          <target state="new">Naturally <bpt id="p1">**</bpt>integrated<ept id="p1">**</ept> into BI and Insights.</target>
+        </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Internal Flow Diagram:</source>
+          <target state="new">Internal Flow Diagram:</target>
+        </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Global Level A/B Testing</source>
+          <target state="new">Global Level A/B Testing</target>
+        </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Global Level A/B Testing<ept id="p1">*</ept> enables two major scenarios:</source>
+          <target state="new"><bpt id="p1">*</bpt>Global Level A/B Testing<ept id="p1">*</ept> enables two major scenarios:</target>
+        </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It allows certain feature hypothesis to be practically verified or proved, typically via a collaboration of <bpt id="p1">**</bpt>the feature stakeholder, feature PM and developers<ept id="p1">**</ept>.</source>
+          <target state="new">It allows certain feature hypothesis to be practically verified or proved, typically via a collaboration of <bpt id="p1">**</bpt>the feature stakeholder, feature PM and developers<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It allows <bpt id="p1">**</bpt>engineering team<ept id="p1">**</ept> to roll out a feature smoothly.</source>
+          <target state="new">It allows <bpt id="p1">**</bpt>engineering team<ept id="p1">**</ept> to roll out a feature smoothly.</target>
+        </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Design Principles:</source>
+          <target state="new">Design Principles:</target>
+        </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Keep things <bpt id="p1">**</bpt>simpler<ept id="p1">**</ept> if possible, a single API <ph id="ph1">`Experiment.IsEnabledAsync`</ph> could be used on client (JavaScript) and server (C#) side.</source>
+          <target state="new">Keep things <bpt id="p1">**</bpt>simpler<ept id="p1">**</ept> if possible, a single API <ph id="ph1">`Experiment.IsEnabledAsync`</ph> could be used on client (JavaScript) and server (C#) side.</target>
+        </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Make it simpler for developers to test and see features on/off side-by-side.</source>
+          <target state="new">Make it simpler for developers to test and see features on/off side-by-side.</target>
+        </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Users should be <bpt id="p1">**</bpt>affinitized<ept id="p1">**</ept>, which means once a user saw a feature X turned on, he/she should always see X unless the browser session info has been explicitly wiped out (e.g. Ctrl + Shift + Delete or InPrivate Session).</source>
+          <target state="new">Users should be <bpt id="p1">**</bpt>affinitized<ept id="p1">**</ept>, which means once a user saw a feature X turned on, he/she should always see X unless the browser session info has been explicitly wiped out (e.g. Ctrl + Shift + Delete or InPrivate Session).</target>
+        </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Should be <bpt id="p1">**</bpt>fast<ept id="p1">**</ept>, conducting a new test, turning on/off an A/B testing, or updating the split ratio should take effect in <bpt id="p2">**</bpt>less than 30 seconds<ept id="p2">**</ept>.</source>
+          <target state="new">Should be <bpt id="p1">**</bpt>fast<ept id="p1">**</ept>, conducting a new test, turning on/off an A/B testing, or updating the split ratio should take effect in <bpt id="p2">**</bpt>less than 30 seconds<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Naturally <bpt id="p1">**</bpt>integrated<ept id="p1">**</ept> into BI and Insights.</source>
+          <target state="new">Naturally <bpt id="p1">**</bpt>integrated<ept id="p1">**</ept> into BI and Insights.</target>
+        </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Internal Flow Diagram:</source>
+          <target state="new">Internal Flow Diagram:</target>
+        </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Sample Code (ECMAScript)</source>
+          <target state="new">Sample Code (ECMAScript)</target>
+        </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Real World Example</source>
+          <target state="new">Real World Example</target>
+        </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Please try this now!</source>
+          <target state="new">Please try this now!</target>
+        </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Open the F12 console and run the following code:</source>
+          <target state="new">Open the F12 console and run the following code:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
