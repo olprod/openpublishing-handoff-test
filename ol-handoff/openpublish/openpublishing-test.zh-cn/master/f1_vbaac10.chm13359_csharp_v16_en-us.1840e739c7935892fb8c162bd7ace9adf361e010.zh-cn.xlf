@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">
+      </xliffext:oltranslationpriority>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">openpublishing\test\f1query\f1_vbaac10.chm13359_csharp_v16_en-us.md</xliffext:olfilepath>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e564137b41b7a1081148898dfd2e824500175bb8</xliffext:olfilehash>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-4c0f30d" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>How To Publish Content to Enable F1 Query</source>
+          <target state="new">How To Publish Content to Enable F1 Query</target>
+        </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Metadata Strategy</source>
+          <target state="new">Metadata Strategy</target>
+        </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>f1_keywords<ept id="p1">**</ept> (<bpt id="p2">_</bpt>required<ept id="p2">_</ept>, <bpt id="p3">_</bpt>multivalue<ept id="p3">_</ept>): need to provide one or more F1 keywords for this content, which will be used to match the keywords from F1 query URL.</source>
+          <target state="new"><bpt id="p1">**</bpt>f1_keywords<ept id="p1">**</ept> (<bpt id="p2">_</bpt>required<ept id="p2">_</ept>, <bpt id="p3">_</bpt>multivalue<ept id="p3">_</ept>): need to provide one or more F1 keywords for this content, which will be used to match the keywords from F1 query URL.</target>
+        </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>dev_langs<ept id="p1">**</ept> (<bpt id="p2">_</bpt>required<ept id="p2">_</ept>, <bpt id="p3">_</bpt>multivalue<ept id="p3">_</ept>): the supported develop languages of this content.</source>
+          <target state="new"><bpt id="p1">**</bpt>dev_langs<ept id="p1">**</ept> (<bpt id="p2">_</bpt>required<ept id="p2">_</ept>, <bpt id="p3">_</bpt>multivalue<ept id="p3">_</ept>): the supported develop languages of this content.</target>
+        </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The F1 query will specify the dev_lang that the develop is currently using in the IDE.</source>
+          <target state="new">The F1 query will specify the dev_lang that the develop is currently using in the IDE.</target>
+        </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>YAML Header</source>
+          <target state="new">YAML Header</target>
+        </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The metadata is set in YAML header of the Markdown file of your content:</source>
+          <target state="new">The metadata is set in YAML header of the Markdown file of your content:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
